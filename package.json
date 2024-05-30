@@ -1,0 +1,21 @@
+{
+  "name": "buildchecker",
+  "version": "1.1.1",
+  "description": "Build analyzer for express mvc setup, checks directory and file contents",
+  "main": "index.js",
+  "bin": {
+    "buildcheck": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alexwilliam112/buildAnalyzer-express"
+  },
+  "author": "Alexander William",
+  "license": "MIT",
+  "dependencies": {
+    "buildchecker": "file:buildchecker-1.0.0.tgz"
+  }
+}
